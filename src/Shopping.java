@@ -13,6 +13,8 @@ public class Shopping {
 		Thread.sleep(3000);
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		driver.quit();
+		
+		System.out.println("Learning Git and GitHub");
 
 	}
 

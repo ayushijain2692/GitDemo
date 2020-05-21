@@ -17,7 +17,7 @@ public class JavaScript {
 		String actualText = new String();
 		JavascriptExecutor js =(JavascriptExecutor)driver;
 		int counter=0;
-		
+		System.out.println("Learning Git and GitHub");
 		
 		while(!(actualText.contains(expectedText))) {
 			if(counter <=10) {
