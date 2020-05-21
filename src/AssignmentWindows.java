@@ -27,7 +27,8 @@ public class AssignmentWindows {
 		System.out.println(driver.findElement(By.xpath("//*[text()='Opening a new window']")).getText());
 		
 		driver.quit();
-		
+		System.out.println("Merging of branches in GIt");
+	
 		
 		
 
