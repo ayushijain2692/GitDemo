@@ -14,7 +14,7 @@ public class Shopping {
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		driver.quit();
 		
-		System.out.println("Learning Git and GitHub");
+		//System.out.println("Learning Git and GitHub");
 
 	}
 

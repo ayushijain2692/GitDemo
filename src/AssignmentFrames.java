@@ -20,7 +20,8 @@ public class AssignmentFrames {
 	driver.switchTo().frame(0);
 	driver.switchTo().frame(1);
 	System.out.println(driver.findElement(By.tagName("div")).getText());
-	System.out.println("Learning Git and GitHub");
+	//System.out.println("Learning Git and GitHub");
+	System.out.println("Selenium");
 	
 	driver.quit();
 
