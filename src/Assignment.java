@@ -24,6 +24,7 @@ public class Assignment {
 		String alertText = driver.switchTo().alert().getText();
 		if(alertText.contains(text))
 			System.out.println("The alert box contains this text: "+ text);
+		System.out.println("Learning Git and GitHub");
 		driver.quit();
 	}
 }
